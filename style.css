@@ -1,0 +1,44 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.containor{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.imageoff{
+    background-image: url('Bulb\ Off.jpg');
+   background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 100px;
+    left: 300px; 
+    background-size: cover;
+    border: 8px solid yellow;
+}
+
+.imageoff:hover{
+    background-image: url('Bubl\ On\ 2.1.jpg');
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    left: 300px; 
+    background-size: cover;
+}
+div.lable{
+    color: red;
+    position: absolute;
+    left: 650px;
+    bottom: 150px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
